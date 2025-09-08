@@ -1,0 +1,7 @@
+..models
+.venv
+app/__pycache__/
+cosine_sim_matrix.pkl
+src/__pycache__/
+streamlit_app/..models
+venv
