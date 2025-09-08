@@ -5,3 +5,4 @@ cosine_sim_matrix.pkl
 src/__pycache__/
 streamlit_app/..models
 venv
+streamlit_app
