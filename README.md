@@ -16,3 +16,47 @@ Additionally, the project provides both a **Streamlit web app** and a **FastAPI 
 ---
 
 ## 📂 Project Structure
+```
+movie_recommendation_project/
+│── data/
+│ ├── movies.csv
+│ ├── ratings.csv
+│
+│── models/
+│ ├── cosine_sim_matrix.pkl
+│ ├── svd_model.pkl
+│ ├── tfidf_vektorizer.pkl
+│
+│── src/
+│ ├── data_preprocessing.py
+│ ├── content_based.py
+│ ├── collaborative_filtering.py
+│ ├── hybrid_model.py
+│ ├── utils.py
+│
+│── app/
+│ ├── streamlit_app.py # Web app
+│ ├── api.py # FastAPI backend
+│
+│── requirements.txt
+│── README.md
+```
+
+
+---
+
+## 📊 Dataset
+We use the **MovieLens dataset** (small version):  
+- **movies.csv** → movieId, title, genres  
+- **ratings.csv** → userId, movieId, rating, timestamp  
+
+Dataset is publicly available at: [MovieLens](https://grouplens.org/datasets/movielens/).
+
+---
+
+## ⚙️ Installation
+Clone the repository:
+```bash
+git clone https://github.com/yourusername/movie_recommendation_project.git
+cd movie_recommendation_project
+```
